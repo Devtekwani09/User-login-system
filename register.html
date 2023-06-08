@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url(https://th.bing.com/th/id/R.f28e89fd3a278d16590e2ba69af43d9e?rik=9SKHaeoi8avCYA&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f7%2f7%2f1%2f495311.jpg&ehk=h16%2fN26rcgJ5eQ9Z71ajkHgEdI9qANrXi5NmlsfmYuM%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        input{
+            font-size: 25px;
+            margin: 11px;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>APTCODERy</h1>
+        <label class="header">Register</label>
+
+        <div class="loginform">
+            <form action="registeration.php" method="post">
+                <input type="text" name="fname" id="fname" placeholder="Enter your name">
+                <input type="text" name="uname" id="uname" placeholder="Enter your username">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <div class="btn">
+                    <button type="submit" class="btn">Register</button>
+                </div>
+                <br>
+                <a href="login.html" style="text-decoration: none; color: black;">Already Registered! Click here for Login</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

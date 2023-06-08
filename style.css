@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main{
+    margin-top: 100px;
+    width: 500px;
+    height: 80vh;
+    background-color: #dedede;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    left: 195px;
+    color: #2d3436;
+}
+
+.loginform{
+    padding: 40px 40px;
+}
+
+.loginform .label{
+    font-size: 18px;
+    margin: 10px 0px;
+    color: #2d3436;
+    margin-top: 5px;
+}
+
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+.loginform input:focus{
+    transition: .3s;
+    border: 1px solid #999;
+}
+
+.loginform button{
+    margin-top: 30px;
+    height: 50px;
+    width: 10vw;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: 1px solid #ffa280;
+    background: #ff571a;
+    transition: .5s;
+    border-radius: 45px;
+    position: relative;
+    padding-top: 1vh;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.loginform button:hover{
+    background: #f64707;
+
+}
+
+.main h1{
+    font-size: 20px;
+    font-style: italic ;
+    margin: 10px;
+    padding: 0;
+    left: 10px;
+}
+
+.loginform h5{
+    margin: 10px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    text-decoration: none;
+}
